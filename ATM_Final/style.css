@@ -1,0 +1,155 @@
+/* Keeps 25px Gap on both side of body */
+body {
+	margin-right: 50px; 
+	margin-left: 50px;
+	background-color: #FDFEFE;
+	font-family: arial;
+	
+}
+
+/* Navigation bar*/
+nav{
+	background-color: #0084b4;
+	padding: 1px;	
+	padding-left:25px;
+	 border-radius: 10px;
+	 border: 2px solid white;
+	 color:white;
+}
+
+/* footer styling */
+footer{
+	background-color: #0084b4;
+	padding: 8px;
+	 border-radius: 10px;
+	 border: 1px solid white;
+	 position:fixed;
+	 width:91%;
+ 	bottom:0;
+ 	left:10;
+	
+}
+
+/*field set styling*/
+#field_set{
+	background-color: #E5E7E9;
+	padding: 20px;
+	border-radius: 10px;
+	text-align:center;
+	border: 2px solid black; 
+	
+}
+
+/* Moves form 30 px down */
+body form{
+	margin-top: 30px;
+}
+
+/* puts the buttons in home page on grid*/
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+
+/* positions the items inside grids */
+.grid-item{
+	text-align: right;
+}
+
+.grid-item1{
+	text-align: center;
+}
+
+/* borders on table */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* allignment of data inside table*/
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+/* wraps table defines table height and add scrol bar if it goes over*/
+.table_wrap{
+	height: 400px; 
+	overflow-y: auto;
+}
+
+/* spreads table evenly horizontally*/
+table{
+	width:100%
+}
+
+/* buttons properties */
+button {
+    background-color: #EBEDEF;
+     font-size: 16px;
+     font-weight: bold;
+     border-radius: 10px;
+     margin: 4px 2px;
+     padding: 5px;
+    text-align: center;
+    border: 2px solid black;    
+}
+
+/*makes drop down unform to the buttons*/
+#dropdown{
+     font-size: 16px;
+     border-radius: 10px;
+     margin: 4px 14px;
+    text-align: center;
+	border: 2px solid black; }
+
+/*makes submit button uniform to the drop down*/
+#submit_button{
+ background-color: #EBEDEF;
+      font-size: 14px;
+     border-radius: 10px;
+     margin: 4px 2px;
+     padding: 3px;
+    text-align: center;
+    border: 1px solid white; 
+    border: 2px solid black; 
+	
+}
+
+
+/* alligning form labels*/
+.label_and_inputs input{
+     font-size: 16px;
+     border-radius: 4px;
+     margin: 4px 2px;
+     padding: 5px;
+    text-align: center;
+border: 2px solid black; 
+}	
+
+/* aligning form input boxes */
+.label_and_inputs label{
+    display: inline-block;
+    clear: left;
+    width: 250px;
+    text-align: center;
+} 
+
+/* Aligns the form's subbmit button */
+#form_submit_button{
+	background-color:#aaaaaa;
+    float: center;
+    clear: center;
+    text-align: right;
+    border: 2px solid black; 
+}
+/*hr color  */
+hr{
+border: 1px solid gray; 
+}
+
+/* Check box borders */
+#check_box{
+	outline: 1px solid #1e5180;	
+}
